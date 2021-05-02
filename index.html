@@ -12,33 +12,22 @@
         <a href="/">Portfolio</a>
       </h1>
       <nav>
-        <ul>
-          <li>
             <a href="#about-me">About Me</a>
-          </li>
-          <li>
             <a href="#work">Work</a>
-          </li>
-          <li>
             <a href="#Contact-Me">Contact Me</a>
-          </li>
-          <li>
             <a href="#resume">Resume</a>
-          </li>
-        </ul>
       </nav>
     </header>
     <!-- end navigation -->
 
     <!-- hero/jumbotron -->
-    <section class="hero">
+    <section class="hero-wrapper">
       <div class="hero">
         <h2>Live a Life You Will Rememebr.</h2>
-        <img src="./assets/images/beach.jpg" alt=""/>
-      </div>
-
+        </div>
       </section>
-    <!-- end header -->
+    <!-- end hero -->
+    <main class="page-wrapper">
 
     <!-- "About Me" start - <section> -->
     <section id="about-me" class="intro">
@@ -57,54 +46,66 @@
     </section>
     <!-- end "about me" -->
 
-    <!-- "Work" -->
-    <section id="work">
+    <!-- "Work"/ portfolio -->
+    <section id="work-section" class="page-section">
       <div class="flex-row">
         <h2 class="section-title secondary-border">
           Work
         </h2> 
       </div>
+      <div class="work-wrapper">
+    <a href="#" class="flex-item sileotech">
       <div class="work">
         <h3>Sileotech</h3>
-          <div class="sileotech-img">
+          <div class="work-img">
             <img src="./assets/images/sileotech.JPG" alt="" />
           </div>
       </div>
+    </a>
+    <a href="#" class="flex-item bayen">
       <div class="work">
         <h3>bayenGroup</h3>
-          <div class="bayen-img">
+          <div class="work-img">
             <img src="./assets/images/bayen.jpg " alt="" />
           </div>
       </div>
+    </a>
+      <a href="#" class="flex-item nvigate">
       <div class="work">
         <h3>NVigate</h3>
-          <div class="nvigate-img">
+          <div class="work-img">
             <img src="./assets/images/nvigate.JPG" alt="" />
           </div>
       </div>
+    </a>
+      <a href="#" class="flex-item run-buddy">
       <div class="work">
         <h3>Run Buddy</h3>
-          <div class="run-buddy-img">
+          <div class="work-img">
             <img src="./assets/images/run-buddy.JPG" alt="" />
           </div>
         </div>
+        </a>
       </div>
+    </div>
     </section>
     <!-- "work" end -->
     <!--Contact me -->
-    <section>
-        <div class="contact">
+    <section class="page-section contact" id="contact">
           <h3>Contact Me</h3>
-          <ul>
-            <li>Number</li>
-            <li>Email</li>
+          <div>
+              <address>
+            <a href="tel:+1818455802"> 1818455802</a>
+            <a href="mailto:">Email</a>
             
-            <li>GitHub</li>
+            <a href="">GitHub</a>
 
-            <li>Linkedin</li>
-        </div>
+            <a href="">Linkedin</a>
+        </address>
+    </div>
+        
     </section>
     <!-- "contact me" end -->
-
+</main>
   </body>
 </html>
